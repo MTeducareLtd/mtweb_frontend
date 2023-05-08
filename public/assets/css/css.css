@@ -1,0 +1,233 @@
+:root {
+  --colorDark: #201429;
+}
+
+*:focus-visible {
+  outline: var(--mt-blue) auto 1px;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: 0 0;
+  position: absolute;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: var(--mt-blue);
+}
+
+/* ========== Header Modifications Start ========== */
+.navbar.fixed-top .dropdown-toggle:not(.btn-admission)::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  content: "";
+  height: 10px;
+  width: 10px;
+  background: transparent;
+  border-left: none;
+  border-top: none;
+  border-right: 3px solid #252424;
+  border-bottom: 3px solid #252424;
+  border-radius: 2px;
+  rotate: 45deg;
+  position: relative;
+  left: 10px;
+  top: 2px;
+  opacity: 0.6;
+}
+
+/* ========== Header Modifications End ========== */
+/* ========== MT-Educare Nav Tabs Start ========== */
+.MT_Tab.nav-tabs {
+  gap: 40px;
+  border: none;
+  margin: 0px 0px 20px;
+}
+
+.MT_Tab.nav-tabs .nav-item {}
+
+.MT_Tab.nav-tabs .nav-item .nav-link {
+  padding: 8px 18px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  color: var(--text);
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  white-space: nowrap;
+  border-radius: 40px;
+  font-family: "Manrope";
+}
+
+.MT_Tab.nav-tabs .nav-item .nav-link:hover {
+  border-color: var(--text);
+}
+
+.MT_Tab.nav-tabs .nav-item .nav-link.active {
+  background: var(--dark-black);
+  color: var(--white);
+}
+
+.MT_TabContent.tab-content:focus-visible {
+  outline: none !important;
+}
+
+.MT_TabContent.tab-content .tab-pane:focus-visible {
+  outline: none !important;
+}
+
+/* ========== MT-Educare Nav Tabs End ========== */
+
+/* ========== Owl Carousel Config Start ========== */
+.owl-carousel .owl-stage {
+  display: flex;
+}
+
+.owl-carousel .owl-stage .item {
+  height: 100%;
+}
+
+.MT-OwlDots.owl-theme {
+  transition: 400ms;
+}
+
+.MT-OwlDots.owl-theme .owl-dots,
+.MT-SlickDots .slick-dots {
+  transition: 400ms;
+}
+
+.MT-OwlDots.owl-theme .owl-dots .owl-dot span,
+.MT-SlickDots .slick-dots li {
+  width: 16px;
+  height: 6px;
+  background: var(--mt-blue) !important;
+  opacity: 0.12;
+  transition: 400ms;
+  border-radius: 10px;
+}
+
+.MT-SlickDots .slick-dots li button::before {
+  display: none;
+}
+
+.MT-OwlDots.owl-theme .owl-dots .owl-dot.active span,
+.MT-SlickDots .slick-dots li.slick-active {
+  width: 50px;
+  opacity: 1;
+}
+
+/* ========== Header Customization Start ========== */
+.mt-subheader.dropdown-item {
+  background: #fff !important;
+
+}
+
+.mt-subheader.dropdown-item .dropdown-toggle {
+  text-decoration: none;
+  color: inherit !important;
+}
+
+.mt-subheader.dropdown-item .dropdown-toggle::after {
+  rotate: -45deg !important;
+}
+
+.mt-subheader.dropdown-item :is(.dropdown-menu) {
+  transition: 600ms;
+}
+
+.mt-subheader.dropdown-item :is(.dropdown-toggle:hover~.dropdown-menu, .dropdown-menu:hover) {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  position: absolute;
+  top: -25px;
+  transform: translateX(-54%);
+  transition: 600ms;
+  right: 0px;
+}
+
+/* ========== Header Customization End ========== */
+
+/* ========== Owl Carousel Config End ========== */
+
+.ant-form-item-row:has(select.form-controls) label.ant-form-item-required,
+.ant-form-item-row:has(select.form-controls) .ant-form-item-label label {
+  position: relative;
+  width: fit-content;
+  color: var(--mt-blue);
+}
+
+/* .ant-form-item-row:has(select.form-controls) label.ant-form-item-required::before, */
+.ant-form-item-row .ant-form-item-control-input-content {
+  position: relative;
+}
+
+.ant-form-item-row .ant-form-item-control-input-content:has(select)::after {
+  content: "";
+  position: absolute;
+  background: url(../imgs/icon-down-arrow-grey.svg) no-repeat;
+  background-position: center;
+  height: 20px;
+  width: 20px;
+
+  top: 0;
+  right: 5px;
+  pointer-events: none;
+}
+
+.EnquireNowWrp .ant-form-item-row .ant-form-item-control-input-content:has(select)::after {
+  display: none;
+}
+
+.ant-form-item-explain-error {
+  color: red;
+}
+
+.ant-form-item-required::after {
+  content: "*";
+  color: red;
+}
+
+.timeline-card img[alt=illustration] {
+  max-height: 350px;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.timeline-card .btn-wrapper {
+  margin-top: 40px;
+}
+
+.slick-track {
+  display: flex !important;
+  align-items: stretch;
+}
+
+:is(.CoursesWeOfferConfig, .demoVideoConfig) .slick-track .slick-slide {
+  height: 550px;
+}
+
+.slick-track .slick-slide {
+  height: 100%;
+  display: flex !important;
+  align-items: stretch;
+  width: 100%;
+}
+
+.slick-track .slick-slide .item {
+  height: 100%;
+}
+
+/* .slick-track .slick-slide>div {
+  height: 100%;
+  width: 100%;
+} */
+
+#banner-main .slick-track .slick-slide {
+  height: auto;
+}
