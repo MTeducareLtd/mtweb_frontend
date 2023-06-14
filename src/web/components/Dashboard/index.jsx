@@ -280,7 +280,7 @@ const Dashboard = ({ defaultDemoVideoListApi, defaultCategoryListApi, categoryDe
                           <div className="col-md-7 col-sm-12">
                             <div className="caption">
                               <h2>
-                                <span className="text-orange">30+ Years</span> of legacy with Sterling Results
+                                <span className="text-orange">34+ Years</span> of legacy with Sterling Results
                               </h2>
                               <p className="mt-3">Will you be the next star of MT Educare? Accomplish greatness and be a part of our legacy. Find your course now.</p>
                             </div>
@@ -518,7 +518,7 @@ const Dashboard = ({ defaultDemoVideoListApi, defaultCategoryListApi, categoryDe
                       <div className="explore-lakshya bg-light-orange">
                         <div>
                           <img src="../assets/imgs/lakshya-logo.png" alt="lakshya-logo" />
-                          <p>Lakshay is our partner which provides the higher secondary education science courses for competitive exams.</p>
+                          <p>Lakshya is our partner which provides the higher secondary education science courses for competitive exams.</p>
                         </div>
                         <a href="https://www.lakshyainstitute.com/" className="btn btn-lg" target="_blank">
                           Explore Lakshya
@@ -598,7 +598,7 @@ const Dashboard = ({ defaultDemoVideoListApi, defaultCategoryListApi, categoryDe
                     <div className="explore-lakshya bg-light-orange">
                       <div>
                         <img src="../assets/imgs/lakshya-logo.png" alt="lakshya-logo" />
-                        <p>Lakshay is our partner which provides the higher secondary education science courses for competitive exams.</p>
+                        <p>Lakshya is our partner which provides the higher secondary education science courses for competitive exams.</p>
                       </div>
                       <a href="https://www.lakshyainstitute.com/" className="btn btn-lg" target="_blank">
                         Explore Lakshya

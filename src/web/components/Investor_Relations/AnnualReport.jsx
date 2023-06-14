@@ -71,7 +71,7 @@ const AnnualReport = ({  annualReportDataAPI, annualReportData }) => {
                           </div>
 
                           <div className="file-link">
-                            <a href={IMAGE_BASE_URL + "/" + item.annualReport_file} download={IMAGE_BASE_URL + "/" + item.annualReport_file} target="_blank">
+                            <a href={IMAGE_BASE_URL + "/" + item.file} download={IMAGE_BASE_URL + "/" + item.file} target="_blank">
                               <img src="../assets/imgs/icon-download.svg" alt="icon" />
                             </a>
                           </div>

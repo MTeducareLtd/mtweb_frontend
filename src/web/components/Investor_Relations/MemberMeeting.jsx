@@ -24,18 +24,18 @@ const MemberMeeting = ({ meetingDataAPI, meetingData }) => {
                     </Link>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">
-                  Members Meeting
+                  Board Meetings
                   </li>
                 </ol>
               </nav>
 
-              <h4>Members Meeting</h4>
+              <h4>Board Meetings</h4>
 
               <div className="pills">
                 <Link to={WebRoutes.BOARD_MEETING} >
-                  Board Meeting
+               Member Meetings
                 </Link>
-                <Link to={WebRoutes.MEMBER_MEETING} className="active">Member Meeting</Link>
+                <Link to={WebRoutes.MEMBER_MEETING} className="active">Board Meetings</Link>
               </div>
             </div>
           </div>

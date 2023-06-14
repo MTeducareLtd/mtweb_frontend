@@ -109,4 +109,4 @@ const mapDispatchToProps = (dispatch) => {
     };
 };
 
-export default BaseDashboard;
+export default connect(mapStateToProps, mapDispatchToProps)(BaseDashboard);

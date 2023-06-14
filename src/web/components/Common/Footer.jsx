@@ -50,8 +50,9 @@ const Footer = ({ emailSubscriptionApi, categoryData, socialLinkData }) => {
 
               <p className="address">MT Educare Ltd., Office No. 220, 2nd Floor, Neptune’s Flying Colors, Near Check Naka Bus Depot, L.B.S Cross Road, Mulund (W), Mumbai 400080, India.</p>
               <p className="address">Corporate Office: 135, Continental Building, Dr. A. B Road, Worli, Mumbai – 400018.</p>
-              <p className="address"><h6>Tel :+91 22 4918 6000 </h6><h6>Fax :+91 22 4918 6060 </h6></p>
-              <p className="address"><h6> Email:</h6>rnt.helpdesk@linkintime.co.in</p>
+              <p className="address"><h6>Tel :+91 22 4918 6000/022-2937700/800/900 </h6><h6>Fax :+91 22 4918 6060 </h6></p>
+              <p className="address"><h6> Email:</h6>rnt.helpdesk@linkintime.co.in<br/>Info@mteducare.com<br/>secretarial@mteducare.com<br/></p>
+              
             </div>
 
             <div className="col-md-4">
