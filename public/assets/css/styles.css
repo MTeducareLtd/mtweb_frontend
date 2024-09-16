@@ -2287,7 +2287,13 @@ nav[aria-label="breadcrumb"] {
   padding: 10px;
   border-radius: 15px;
 }
-
+.whatsapp
+{
+position: fixed;
+right: 2px;
+bottom: 30px;
+z-index: 99;
+}
 /* enquire now ends here */
 
 /* * {

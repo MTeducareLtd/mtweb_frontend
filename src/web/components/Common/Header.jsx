@@ -120,6 +120,9 @@ const Header = ({ categoryListApi, categoryData }) => {
                   <Link className="dropdown-item" to={WebRoutes.INVESTOR_PRESENTATIONS}>Investor Presentations</Link>
                   </li>
                   <li>
+                  <Link className="dropdown-item" to={WebRoutes.ODR}>ODR Portal</Link>
+                  </li>
+                  <li>
                   <Link className="dropdown-item" to={WebRoutes.PRESS_RELEASE}>Press Releases</Link>
                   </li>
                   <li>
@@ -127,6 +130,9 @@ const Header = ({ categoryListApi, categoryData }) => {
                   </li>
                   <li>
                   <Link className="dropdown-item" to={WebRoutes.STATUTORY_COMMUNICATION}>Statutory Communication</Link>
+                  </li>
+                  <li>
+                  <Link className="dropdown-item" to={WebRoutes.CIRP}>CIRP</Link>
                   </li>
                   <li>
                   <Link className="dropdown-item" to={WebRoutes.SHAREHOLDING_PATTERN}>Shareholding Pattern</Link>
@@ -141,6 +147,12 @@ const Header = ({ categoryListApi, categoryData }) => {
                 </ul>
               </li>
           
+
+              <li className="nav-item">
+                <Link  className="nav-link" to={WebRoutes.CIRP}>
+                 CIRP
+                </Link>
+              </li>
 
               <li className="nav-item">
                 <a href="#" onClick={() => setOpenContact(true)} className="nav-link" data-bs-toggle="modal">
@@ -184,7 +196,7 @@ const Header = ({ categoryListApi, categoryData }) => {
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" target="_blank" href="https://admission.mteducare.com/commerce">
+                    <a className="dropdown-item" target="_blank" href="www.https://admission.mteducare.com/commerce">
                       Commerce
                     </a>
                   </li>
@@ -209,7 +221,12 @@ const Header = ({ categoryListApi, categoryData }) => {
         {/* ============= CONTACT MODAL STARTS ============= */}
 
         {/* ============= CONTACT MODAL ENDS ============= */}
+        <a class= "whatsapp" href="https://api.whatsapp.com/send?phone=8433998488&amp;text=Welcom to MT Educare" target="_blank" previewlistener="true">
+       <img  src="../assets/imgs/wp-logo.png" width="45px" height="45px" alt=""></img>
+        </a>
+        
       </nav>
+      
     </>
   );
 };

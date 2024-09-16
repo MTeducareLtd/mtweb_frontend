@@ -37,6 +37,7 @@ const StatuoryCommunication = ({ releaseDataAPI, releaseData }) => {
                   Statutory Communication
                 </Link>
                 <Link to={WebRoutes.SHAREHOLDING_PATTERN}>Shareholding Pattern</Link>
+                <Link to={WebRoutes.CIRP}>CIRP</Link> 
               </div>
             </div>
           </div>

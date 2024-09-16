@@ -41,6 +41,8 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import AnnualReturn from "./web/components/Investor_Relations/AnnualReturn";
 import MemberMeeting from "./web/components/Investor_Relations/MemberMeeting";
+import CIRP from "./web/components/Investor_Relations/CIRP";
+import Odr from "./web/components/Investor_Relations/Odr";
 
 function App() {
   return (
@@ -87,6 +89,8 @@ function App() {
             <Route path={WebRoutes.POSTAL_BALLOT} element={<PostalBallot />} />
 
             <Route path={WebRoutes.STATUTORY_COMMUNICATION} element={<StatuoryCommunication />} />
+           
+           <Route path={WebRoutes.CIRP} element={<CIRP />}  />
 
             <Route path={WebRoutes.SHAREHOLDING_PATTERN} element={<ShareholdingPattern />} />
 
@@ -121,6 +125,8 @@ function App() {
             <Route path={WebRoutes.DISCLAIMER} element={<Disclaimer />} />
 
             <Route path={WebRoutes.CAREER} element={<Career />} />
+
+            <Route path={WebRoutes.ODR} element={<Odr/>} />
 
             <Route path={`${WebRoutes.CAREER_DETAILS}:id`} element={<CareerDetails />} />
           </Route>

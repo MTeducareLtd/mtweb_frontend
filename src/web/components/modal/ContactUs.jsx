@@ -78,7 +78,7 @@ const ContactUs = ({ openContact, handleCancel, categoryListApi, userQueryApi, c
                     <img src="../assets/imgs/icon-robomate.svg" alt="icon" />
                   </div>
 
-                  <p className="text-medium">To Install Robomate+ at your Institution call 9987686444</p>
+                  <p className="text-medium">To Install Robomate+ at your Institution call +9184339 98488</p>
                 </div>
               </div>
 
@@ -88,7 +88,7 @@ const ContactUs = ({ openContact, handleCancel, categoryListApi, userQueryApi, c
                     <img src="../assets/imgs/icon-product-call.svg" alt="icon" />
                   </div>
 
-                  <p className="text-medium">For Product Enquiries, call on our Toll-free Number 1800 2100 009</p>
+                  <p className="text-medium">For Product Enquiries, call on our Toll-free Number  02261486148</p>
                 </div>
               </div>
 
@@ -101,6 +101,17 @@ const ContactUs = ({ openContact, handleCancel, categoryListApi, userQueryApi, c
                   <p className="text-medium">For Franchise enquiry contact 9987686444</p>
                 </div>
               </div>
+
+              <div className="col">
+                <div className="info-card bg-light-orange">
+                  <div className="img-wrapper">
+                    <img src="../assets/imgs/icon-product-call.svg" alt="icon" />
+                  </div>
+
+                  <p className="text-medium">Email  customercare@mteducare.com</p>
+                </div>
+              </div>
+
             </div>
           </div>
 

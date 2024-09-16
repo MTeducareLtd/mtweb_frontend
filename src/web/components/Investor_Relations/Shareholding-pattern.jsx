@@ -38,6 +38,7 @@ const ShareholdingPattern = ({ releaseDataAPI, releaseData }) => {
                 <Link to={WebRoutes.SHAREHOLDING_PATTERN} className="active">
                   Shareholding Pattern
                 </Link>
+                <Link to={WebRoutes.CIRP}>CIRP</Link> 
               </div>
             </div>
           </div>

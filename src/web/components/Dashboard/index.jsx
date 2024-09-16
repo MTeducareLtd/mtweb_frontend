@@ -339,7 +339,7 @@ const Dashboard = ({ defaultDemoVideoListApi, defaultCategoryListApi, categoryDe
                   </div>
 
                   <div className="form-controls">
-                    <Form.Item label="Baord" name="board" className="form-label">
+                    <Form.Item label="Board" name="board" className="form-label">
                       <select name="boards" className="form-controls w-100" id="boards" value={boards} onChange={(e) => setBoards(e.target.value)}>
                         <option selected>Select Board</option>
                         {boardfilter &&

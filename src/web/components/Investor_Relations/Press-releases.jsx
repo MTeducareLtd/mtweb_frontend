@@ -38,6 +38,7 @@ const PressRelease = ({ releaseDataAPI, releaseData }) => {
                 <Link to={WebRoutes.POSTAL_BALLOT}>Postal Ballot</Link>
                 <Link to={WebRoutes.STATUTORY_COMMUNICATION}>Statutory Communication</Link>
                 <Link to={WebRoutes.SHAREHOLDING_PATTERN}>Shareholding Pattern</Link>
+                <Link to={WebRoutes.CIRP}>CIRP</Link> 
               </div>
             </div>
           </div>

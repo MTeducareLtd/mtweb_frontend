@@ -75,6 +75,7 @@ const Reports = ({ reportDataAPI, reportData, reportSearchApi, reportSearchData 
                 <Link to={WebRoutes.SUBSIDIARY_MTEDUCARE}> Subsidiaries of MT Educare</Link>
                 <Link to={WebRoutes.ANNUAL_REPORT}> Annual Report</Link> 
                 <Link to={WebRoutes.ANNUAL_RETURN}> Annual Return</Link> 
+                {/* <Link to={WebRoutes.ANN_REPORT}> Ann Report</Link>  */}
               </div>
 
               <div className="row">

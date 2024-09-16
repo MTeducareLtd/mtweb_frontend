@@ -11,7 +11,7 @@ const AnnualReturn = ({ annualReturnDataAPI, returnData, returnSearchApi, return
   useEffect(() => {
     annualReturnDataAPI();
   }, []);
- console.log(returnSearchData.data)
+ console.log(returnData.data)
 
   const years = returnData && returnData.data && [...new Set(returnData.data.map((q) => q.report_year))];
   //console.log(reportData.data);

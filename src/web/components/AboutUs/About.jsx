@@ -65,6 +65,16 @@ const About = ({ introListAPI, introData, defaultIntroApi, defaultIntroData, int
                 </ol>
               </nav>
 
+              
+           <a href="https://zeelearn.com/" target="_blank" className="breadcrumb-item active"><h5>Zee Learn Limited Vision</h5></a>
+          <br/>
+
+           <p>Backed by Zee Group, Zee Learn aims to empower India's children and youth</p>
+           <p><i>“We provide the environment to ignite, nurture and unleash your potential and talent.”</i></p>
+          
+                <br/>
+                <br/>
+
               <h4>About Us</h4>
             </div>
           </div>

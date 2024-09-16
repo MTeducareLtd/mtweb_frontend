@@ -23,7 +23,7 @@ export const annualReportDataAPI = (data) => {
     return (dispatch, getState) => {
         dispatch(getInvestorRequest());
         axios
-            .get(ANNUAL_REPORT_DATA, {
+            .get(ANNUAL_REPORT_DATA, + '' + data, {
                 headers: {
                     ...getCommonApiHeader(),
                 },

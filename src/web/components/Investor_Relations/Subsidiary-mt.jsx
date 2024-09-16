@@ -78,7 +78,7 @@ const SubsidiaryMT = ({ reportDataAPI, reportData, reportSearchApi, reportSearch
                  Subsidiaries of MT
                 </Link>
                 <Link to={WebRoutes.ANNUAL_REPORT} >
-                Annual Reports
+                Annual Report
                 </Link>
                 <Link to={WebRoutes.ANNUAL_RETURN} >
                 Annual Return

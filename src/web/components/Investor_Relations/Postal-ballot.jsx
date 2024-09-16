@@ -37,6 +37,7 @@ const PostalBallot = ({ releaseDataAPI, releaseData }) => {
                 </Link>
                 <Link to={WebRoutes.STATUTORY_COMMUNICATION}>Statutory Communication</Link>
                 <Link to={WebRoutes.SHAREHOLDING_PATTERN}>Shareholding Pattern</Link>
+                <Link to={WebRoutes.CIRP}>CIRP</Link> 
               </div>
             </div>
           </div>

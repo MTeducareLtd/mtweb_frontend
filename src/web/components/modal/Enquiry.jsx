@@ -14,8 +14,9 @@ const Enquiry = ({ openEnquiry, handleCancel, enquiryForm, userQueryApi, categor
   const [name, setName] = useState("");
   const [mobile, setMobile] = useState("");
   const [email, setEmail] = useState("");
+  const [city,setCity] = useState("");
   const [category, setCategory] = useState("");
-  const [city, setCity] = useState("");
+  const [state, setState] = useState("");
   const [board, setBoard] = useState("");
   const [standard, setStandard] = useState("");
   const [demoTime, setDemoTime] = useState("");
@@ -23,7 +24,7 @@ const Enquiry = ({ openEnquiry, handleCancel, enquiryForm, userQueryApi, categor
   useEffect(() => {
     // categoryListApi();
     cityListAPI();
-  }, []);
+  },);
 
   const onFinish = (event) => {
     if (!isNaN(mobile)) {

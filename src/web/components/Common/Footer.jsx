@@ -47,8 +47,13 @@ const Footer = ({ emailSubscriptionApi, categoryData, socialLinkData }) => {
               <p>For Product Enquiries, call on our Toll-free Number 1800 2100 009</p>
 
               <p>For Franchise enquiry contact 9987686444</p>
-
-              <p className="address">MT Educare Ltd., Office No. 220, 2nd Floor, Neptune’s Flying Colors, Near Check Naka Bus Depot, L.B.S Cross Road, Mulund (W), Mumbai 400080, India.</p>
+              <p className="address" ><h6>MT EDUCARE LIMITED,</h6>
+                     CIN: L80903MH2006PLC163888<br/><br/>
+                     Registered Office: 220, 2nd Floor,Neptune’s Flying Colors,
+                     Pandit Dindayal Upadhyay Marg,
+                     L.B.S Cross Road, Mulund (W),
+                     Mumbai 400080, India</p>
+               {/* <p className="address">Registered Office: MT Educare Ltd., Office No. 220, 2nd Floor, Neptune’s Flying Colors, Near Check Naka Bus Depot, L.B.S Cross Road, Mulund (W), Mumbai 400080, India.</p> */}
               <p className="address">Corporate Office: 135, Continental Building, Dr. A. B Road, Worli, Mumbai – 400018.</p>
               <p className="address"><h6>Tel :+91 22 4918 6000/022-2937700/800/900 </h6><h6>Fax :+91 22 4918 6060 </h6></p>
               <p className="address"><h6> Email:</h6>rnt.helpdesk@linkintime.co.in<br/>Info@mteducare.com<br/>secretarial@mteducare.com<br/></p>
@@ -148,6 +153,9 @@ const Footer = ({ emailSubscriptionApi, categoryData, socialLinkData }) => {
                   <li>
                     <Link to={WebRoutes.SHAREHOLDING_PATTERN}>Shareholding Pattern</Link>
                   </li>
+                  <li>
+                    <Link to={WebRoutes.CIRP}>CIRP</Link>
+                  </li> 
                   <li>
                     <Link to={WebRoutes.REPORTS}>Reports</Link>
                   </li>

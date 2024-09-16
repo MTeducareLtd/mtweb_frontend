@@ -17,6 +17,7 @@ export const WebRoutes = {
   POSTAL_BALLOT: "/postal-ballot",
   STATUTORY_COMMUNICATION: "/statutory-communication",
   SHAREHOLDING_PATTERN: "/shareholding-pattern",
+  CIRP: '/cirp',
   REPORTS: "/reports",
   ANNUAL_RETURN: "/annual-returns",
   RESEARCH_REPORT: "/research-report",
@@ -34,4 +35,5 @@ export const WebRoutes = {
   TERMS_SERVICE: "/terms-and-conditions",
   BOARD_MEETING: "/board-meeting",
   MEMBER_MEETING: "/members-meeting",
+  ODR: "/odr-portal",
 };
